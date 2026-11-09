@@ -1,0 +1,14 @@
+.chartContainer {
+  width: 85%;
+  margin: 40px auto;
+}
+
+canvas {
+  max-height: 500px;
+}
+
+@media (max-width: 770px) {
+  .chartContainer {
+    width: 100%;
+  }
+}

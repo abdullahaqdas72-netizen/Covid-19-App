@@ -1,0 +1,33 @@
+.countryContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.countrySelect {
+  width: 320px;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  outline: none;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.countrySelect:hover {
+  border-color: #1565c0;
+}
+
+.countrySelect:focus {
+  border-color: #0d47a1;
+  box-shadow: 0 0 8px rgba(25, 118, 210, 0.3);
+}
+
+@media (max-width: 768px) {
+  .countrySelect {
+    width: 90%;
+  }
+}
